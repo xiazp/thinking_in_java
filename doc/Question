@@ -1,0 +1,9 @@
+1.eclipse 如何编译jar包
+A：java的源码是实时编译的，只有不报错误，直接选择File->export->java->jar file
+导出jar包即可。
+
+2. 一个java文件中定义了一个类，还可以在其他文件再定义这个类吗？
+A： no
+
+3. this的含义
+A: 在成员函数中，this表示调用该函数的对象。
