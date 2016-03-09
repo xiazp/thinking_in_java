@@ -69,6 +69,19 @@ A：
 
 19. 既是static又是final的域只占一段不能改变的存储空间。
 
+20. static final 和final的区别： final可在运行时构造器内初始化，static final只能再定义时初始化。
+
+21. final 修饰参数，表示该参数不可改变其引用，如果是基本数据类型，则表示不可改变其值。
+
+22. final方法 防止在继承类中被修改。所有的private隐形指定为final。
+
+23. final 类不允许被继承。final类中的方法所有方法隐形指定为final
+
+24. 构造器也是static方法，只是static 没有显示写出来
+
+25. 类的加载：创建类的第一个对象，或是访问static域或static方法。
+
+26. 类初始化的顺序: static域初始化->main->构造器->变量
 
 
 
