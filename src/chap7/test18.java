@@ -5,12 +5,13 @@ public class test18 {
 	public final int i = 1;
 	
 	test18(int a){
-		this.i = a;
+		System.out.println(" test18(int a) constructor");
 	}
+	
 	public static void main(String[] args){
-		test18 t = new test18();
+		test18 t = new test18(1);
 		
-		System.out.println("INT_V1 = " + t.INT_V1);
+		System.out.println("INT_V1 = " + test18.INT_V1);
 		System.out.println("i = " + t.i);
 	}
 	
