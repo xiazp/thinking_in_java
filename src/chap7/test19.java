@@ -1,3 +1,4 @@
+
 package chap7;
 
 class t19{
@@ -21,3 +22,4 @@ public class test19 {
 		System.out.println("t.a = " +t.a +" t.a = "+ t2.a);
 	}
 }
+

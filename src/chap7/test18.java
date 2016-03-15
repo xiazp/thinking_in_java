@@ -5,11 +5,14 @@ public class test18 {
 	public final int i;
 	
 	test18(int a){
+
+	
+
 		i = a;
 		System.out.println("test18() constructor");
 	}
 	
-	
+
 	public static void main(String[] args){
 		test18 t = new test18(1);
 		
