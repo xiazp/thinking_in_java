@@ -36,8 +36,6 @@ class Sequence{
 	public Selector selector(){
 		return new SequenceSelector();
 	}
-	
-
 }
 
 public class test4 {
