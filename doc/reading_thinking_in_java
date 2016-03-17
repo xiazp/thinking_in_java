@@ -188,6 +188,9 @@ chap11 持有对象
 
 1.List是一个泛型类， 创建对象时要穿件更具体的类 如ArrayList 或 LinkList。
 
+2. Iterator 迭代器 是容器提供遍历容器元素的一个类。
+ListIterator是Iterator的子类型，针对List类，提供更丰富的接口。
+
 
 
 
