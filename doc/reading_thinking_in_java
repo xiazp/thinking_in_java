@@ -186,6 +186,8 @@ chap11 持有对象
 这正好解决了使用数组无法动态添加成员的问题。
 容器分为两类Collection独立的元素序列 和 Map成组的元素序列。 List 和 Set 类都实现了 collection 接口。
 
+1.List是一个泛型类， 创建对象时要穿件更具体的类 如ArrayList 或 LinkList。
+
 
 
 
