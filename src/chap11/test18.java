@@ -46,7 +46,6 @@ public class test18 {
 		System.out.println("2 Numbers: " + tm);
 		//System.out.println("Keys   : " + tm.keySet());
 		//System.out.println("Values : " + tm.values());
-		
 	}
 
 }
