@@ -47,6 +47,8 @@ public class test9 {
 				}
 			}catch(Exception e){
 				System.out.println("catch exception: " + e.getMessage());
+			}finally{
+				System.out.println("finally : " + i);
 			}
 		}
 		
