@@ -81,17 +81,17 @@ public class test7 {
 	public static void main(String[] args){
 		Fibonacci fb = new Fibonacci();
 		
-		System.out.println("1");
+		System.out.print("1: ");
 		for(int i=0; i < 5; i++){
 			System.out.print(fb.next() + " ");
 		}
 		
-		System.out.println("\r\n2");
+		System.out.print("\r\n2: ");
 		for(int i: new IterableFibonacci(18)){
 			System.out.print(i + " ");
 		}
 
-		System.out.println("\r\n3");
+		System.out.print("\r\n3: ");
 		fb  = new Fibonacci(5);
 		Iterator<Integer> it = fb.getIterator();
 		while(it.hasNext()){
