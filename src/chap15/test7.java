@@ -3,6 +3,7 @@ package chap15;
 import java.util.Iterator;
 import java.lang.UnsupportedOperationException;
 
+
 interface Generator<T> { T next(); }
 
 

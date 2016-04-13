@@ -81,7 +81,6 @@ public class test8 {
 			System.out.println(cg.next());
 		}
 		
-		
 		for(StoryCharacter sc: new CharacterGenerator(5)){
 			System.out.println(sc);
 		}
