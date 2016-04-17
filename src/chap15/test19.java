@@ -81,7 +81,7 @@ class Ships extends ArrayList<Ship>{
 
 
 
-public class test15 {
+public class test19 {
 	
 	public static  void main(String[] args){
 		
