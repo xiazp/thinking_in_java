@@ -54,6 +54,8 @@ class Ship extends ArrayList<Box>{
 }
 
 class Ships extends ArrayList<Ship>{
+
+
 	public Ships(int nShips, int nBoxs, int nGoods){
 		for(int i=0; i <nShips; i++){
 			add(new Ship(nBoxs, nGoods));
@@ -79,11 +81,13 @@ class Ships extends ArrayList<Ship>{
 
 
 
-public class test15 {
+public class test19 {
 	
-	public static void main(String[] args){
+	public static  void main(String[] args){
 		
 		System.out.println(new Ships(2,4,5));
 		
 	}
+	
+
 }
