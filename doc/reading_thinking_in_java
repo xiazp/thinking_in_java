@@ -296,7 +296,22 @@ Arrays.asList()接受任意序列或数组作为参数，并将其转变成List容器。
 1.！！！容器类库对于面向对象语言来说是最重要类库。
 
 18. Java I/O系统
-1.
+1.输入和输出
+流： 任何有能力产生数据的数据源对象 或 有能力接收数据的接收端对象。 屏蔽实际“IO”的处理细节。
+InputStream-输入类的基类， OutputStream-输出类的基类。
+2.装修类：增加有用的属性 和  接口。
+3.Reader 和  Writer
+（1）InputStream 和 OutputStream 面向字节形式的IO。 Reader和Writer面向Uniocde或字符的IO
+（2）适配类InputStreamReader 把InputStream 转成 Reader。
+    OutputStreamWriter 把OutputStream 转成 Writer。
+    
+4.IO的典型使用方式
+（1）缓存文件IO
+
+ 
+
+
+
 
 
 

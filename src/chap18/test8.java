@@ -28,7 +28,6 @@ public class test8 {
 		}catch(Exception e){
 			System.out.println(e.toString());
 		}
-		
 	}
 
 }
